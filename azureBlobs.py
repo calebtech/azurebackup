@@ -2,8 +2,8 @@ from azure.storage.blob import BlockBlobService
 from datetime import datetime
 import os
 
-account_name = 'cnnkdevops'
-account_key = 'bZGYtx7vEW8pdlUQqOIFgLsYIbP3S2jFxhUhil6ZlWgwl4gaF5e0lii+7mfKEDIxoqkatMtZ+1tOUaKe927qvA=='
+account_name = ''
+account_key = ''
 block_blob_service = BlockBlobService(account_name, account_key)
 directory = 'syslogs'
 filelist = os.listdir(directory)
